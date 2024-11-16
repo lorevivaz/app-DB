@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import CommunicationController from './model/CommunicationController';
-import { saveSidLocally } from './model/DBcontroller';
+
 
 
 

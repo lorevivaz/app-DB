@@ -14,4 +14,13 @@ export default class DBcontroller {
     
        }
 
+       async saveUser(sid) {
+        const query = "INSERT INTO Users (sid) VALUES (?);";
+        await this.db.runAsync(query, sid);
+    }
+
+    
+    
+
+
     }
